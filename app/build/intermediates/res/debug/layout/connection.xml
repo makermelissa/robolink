@@ -1,0 +1,21 @@
+                <LinearLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"  
+                    android:id="@+id/tab1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical">
+				    <TextView
+				        android:id="@+id/textConnectionLabel"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:text="@string/connection_label" />
+				
+				    <TextView
+				        android:id="@+id/textDevice"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:freezesText="true"
+				        android:text=""
+				        android:textIsSelectable="true" />							
+			</LinearLayout>
+<!-- From: file:/Users/melissa/AndroidstudioProjects/RoboLink/app/src/main/res/layout/connection.xml -->

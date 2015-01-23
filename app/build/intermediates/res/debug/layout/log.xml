@@ -1,0 +1,24 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/logScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+		<TextView
+		    android:id="@+id/textDebugLabel"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/log_label" />
+		<TextView
+		    android:id="@+id/textDebugLog"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:freezesText="true"
+		    android:text=""
+		    android:textIsSelectable="true" />
+    </LinearLayout>
+</ScrollView>
+<!-- From: file:/Users/melissa/AndroidstudioProjects/RoboLink/app/src/main/res/layout/log.xml -->

@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <TabHost
+        android:id="@+id/tabHost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RelativeLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" 
+				    android:paddingBottom="@dimen/activity_vertical_margin"
+				    android:paddingLeft="@dimen/activity_horizontal_margin"
+				    android:paddingRight="@dimen/activity_horizontal_margin"
+				    android:paddingTop="@dimen/activity_vertical_margin">
+					<include 
+					    layout="@layout/connection"
+					    android:id="@+id/connectionInclude"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content" />
+                    <include 
+					    layout="@layout/switches"
+					    android:id="@+id/switchesInclude"
+					    android:layout_below="@+id/connectionInclude" 
+						android:layout_width="200dp"
+                        android:layout_weight="2"
+						android:layout_height="wrap_content" />
+                    <include 
+					    layout="@layout/features"
+					    android:id="@+id/featuresInclude"
+					    android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+					    android:layout_alignTop="@+id/switchesInclude" 
+						android:layout_width="300dp"
+                        android:layout_weight="2"
+						android:layout_height="wrap_content" />
+                    <include 
+					    layout="@layout/ping"
+					    android:id="@+id/pingInclude"
+					    android:layout_alignParentBottom="true" 
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="@dimen/section_vertical_margin" />
+                    <include 
+					    layout="@layout/rcchannels"
+					    android:id="@+id/rcchannelsInclude"
+					    android:layout_above="@+id/pingInclude" 
+						android:layout_width="wrap_content" 
+						android:layout_height="wrap_content" />
+				</RelativeLayout>
+                
+                <LinearLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="350dp"
+                    android:layout_height="match_parent" >
+					<include 
+					    android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+					    layout="@layout/rcchannels" />
+				</LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" >
+					<include 
+					    android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+					    layout="@layout/log" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+</LinearLayout>

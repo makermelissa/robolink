@@ -1,0 +1,137 @@
+<TableLayout  
+    xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:id="@+id/featuresLayout"  
+    android:layout_width="wrap_content"  
+    android:layout_height="wrap_content"  
+    android:shrinkColumns="*"  
+    android:stretchColumns="*">  
+    <TableRow  
+        android:id="@+id/tableRow0"  
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+        <TextView  
+            android:id="@+id/textViewFeaturesTitle"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:textSize="28sp"  
+            android:text="@string/features_label"  
+            android:gravity="left"  
+            android:layout_span="2" />  
+    </TableRow>  
+    <TableRow  
+        android:layout_height="wrap_content"  
+        android:id="@+id/featuresTableRow1"  
+        android:layout_width="match_parent">  
+		<ImageView
+		    android:id="@+id/featureImageViewSwitches"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:contentDescription="@string/switches_feature"
+	        android:src="@drawable/ic_led_red_on"
+	        android:adjustViewBounds="true"
+	        android:maxWidth="24dp"
+	        android:maxHeight="24dp" />                
+        <TextView  
+            android:id="@+id/textViewValue1"  
+            android:text="@string/switches_feature"
+            android:textSize="24sp"  
+            android:gravity="left" />
+    </TableRow>  
+    <TableRow  
+        android:layout_height="wrap_content"  
+        android:id="@+id/featuresTableRow2"  
+        android:layout_width="match_parent">  
+		<ImageView
+		    android:id="@+id/featureImageViewPing"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:contentDescription="@string/ping_feature"
+	        android:src="@drawable/ic_led_red_on"
+	        android:adjustViewBounds="true"
+	        android:maxWidth="24dp"
+	        android:maxHeight="24dp" />                
+        <TextView  
+            android:id="@+id/textViewValue2"  
+            android:text="@string/ping_feature"
+            android:textSize="24sp"  
+            android:gravity="left" />
+    </TableRow>  
+    <TableRow  
+        android:layout_height="wrap_content"  
+        android:id="@+id/featuresTableRow3"  
+        android:layout_width="match_parent">  
+		<ImageView
+		    android:id="@+id/featureImageViewRC"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:contentDescription="@string/rc_feature"
+	        android:src="@drawable/ic_led_red_on"
+	        android:adjustViewBounds="true"
+	        android:maxWidth="24dp"
+	        android:maxHeight="24dp" />                
+        <TextView  
+            android:id="@+id/textViewValue3"  
+            android:text="@string/rc_feature"
+            android:textSize="24sp"  
+            android:gravity="left" />  
+    </TableRow>  
+    <TableRow  
+        android:layout_height="wrap_content"  
+        android:id="@+id/featuresTableRow4"  
+        android:layout_width="match_parent">  
+		<ImageView
+		    android:id="@+id/featureImageViewSDCard"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:contentDescription="@string/sdcard_feature"
+	        android:src="@drawable/ic_led_red_on"
+	        android:adjustViewBounds="true"
+	        android:maxWidth="24dp"
+	        android:maxHeight="24dp" />                
+        <TextView  
+            android:id="@+id/textViewValue4"  
+            android:text="@string/sdcard_feature"
+            android:textSize="24sp"  
+            android:gravity="left" />  
+    </TableRow>  
+    <TableRow  
+        android:layout_height="wrap_content"  
+        android:id="@+id/featuresTableRow5"  
+        android:layout_width="match_parent">  
+		<ImageView
+		    android:id="@+id/featureImageViewIR"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:contentDescription="@string/ir_feature"
+	        android:src="@drawable/ic_led_red_on"
+	        android:adjustViewBounds="true"
+	        android:maxWidth="24dp"
+	        android:maxHeight="24dp" />                
+        <TextView  
+            android:id="@+id/textViewValue5"  
+            android:text="@string/ir_feature"
+            android:textSize="24sp"  
+            android:gravity="left" />  
+    </TableRow>  
+    <TableRow  
+        android:layout_height="wrap_content"  
+        android:id="@+id/featuresTableRow6"  
+        android:layout_width="match_parent">  
+		<ImageView
+		    android:id="@+id/featureImageViewAccelerometer"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:contentDescription="@string/accelerometer_feature"
+	        android:src="@drawable/ic_led_red_on"
+	        android:adjustViewBounds="true"
+	        android:maxWidth="24dp"
+	        android:maxHeight="24dp" />                
+        <TextView  
+            android:id="@+id/textViewValue6"  
+            android:text="@string/accelerometer_feature"
+            android:textSize="24sp"  
+            android:gravity="left" />
+    </TableRow>  
+</TableLayout>  

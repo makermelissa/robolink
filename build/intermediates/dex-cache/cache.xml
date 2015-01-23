@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/melissa/AndroidstudioProjects/RoboLink/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/melissa/AndroidstudioProjects/RoboLink/app/build/intermediates/pre-dexed/debug/classes-9900615867f43a9db1997d13d5c03384549f3afd.jar" />
+    </item>
+    <item
+        jar="/Users/melissa/AndroidstudioProjects/RoboLink/app/libs/usb-serial-for-android-v010.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c49e65ea5d8d4c1311d0c1189adb07b2c01be29a">
+        <dex dex="/Users/melissa/AndroidstudioProjects/RoboLink/app/build/intermediates/pre-dexed/debug/usb-serial-for-android-v010-5d549117001b0a001d5f3eb097711a7f194ac6fd.jar" />
+    </item>
+    <item
+        jar="/Users/melissa/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/melissa/AndroidstudioProjects/RoboLink/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-19b9993785cca1974a0bcbb3be4179bc02817766.jar" />
+    </item>
+    <item
+        jar="/Users/melissa/AndroidstudioProjects/RoboLink/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/melissa/AndroidstudioProjects/RoboLink/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-0b692f4498470a0bd61f39e972586d9ab14dc7e1.jar" />
+    </item>
+
+</items>

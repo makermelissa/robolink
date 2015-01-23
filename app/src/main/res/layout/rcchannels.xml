@@ -1,0 +1,215 @@
+<TableLayout  
+    xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:id="@+id/rcChannelsLayout"  
+    android:layout_width="wrap_content"  
+    android:layout_height="wrap_content"  
+    android:shrinkColumns="*"  
+    android:stretchColumns="*">  
+    <TableRow  
+        android:id="@+id/tableRow0"  
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+        <TextView  
+            android:id="@+id/textViewRCTitle"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:textSize="28sp"  
+            android:text="@string/rc_channels_label"  
+            android:gravity="left"  
+            android:layout_span="4" />  
+    </TableRow>  
+    <TableRow  
+        android:layout_height="wrap_content"  
+        android:id="@+id/rcChannelsTableRow1"  
+        android:layout_width="match_parent">  
+        <TextView  
+            android:text="@string/channel_1_label"  
+            android:id="@+id/textViewChannel1"  
+            android:textStyle="bold"
+            android:textSize="24sp" />
+		<ImageView
+		    android:id="@+id/rcImageView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:contentDescription="@string/log_label"
+	        android:src="@drawable/ic_led_red_on"
+	        android:adjustViewBounds="true"
+	        android:maxWidth="24dp"
+	        android:maxHeight="24dp" />                
+        <TextView  
+            android:id="@+id/rcTextViewValue1"  
+            android:text="@string/default_time"
+            android:textSize="24sp"  
+            android:gravity="right"
+		    android:freezesText="true"
+            android:paddingRight="@dimen/rc_channels_right_padding" />
+        <ProgressBar
+            android:id="@+id/rcProgressBar1"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:progress="0" />
+    </TableRow>  
+    <TableRow  
+        android:layout_height="wrap_content"  
+        android:id="@+id/rcChannelsTableRow2"  
+        android:layout_width="match_parent">  
+        <TextView  
+            android:text="@string/channel_2_label"  
+            android:id="@+id/textViewChannel2"  
+            android:textStyle="bold"
+            android:textSize="24sp" />
+		<ImageView
+		    android:id="@+id/rcImageView2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:contentDescription="@string/led_description"
+	        android:src="@drawable/ic_led_red_on"
+	        android:adjustViewBounds="true"
+	        android:maxWidth="24dp"
+	        android:maxHeight="24dp" />                
+        <TextView  
+            android:id="@+id/rcTextViewValue2"  
+            android:text="@string/default_time"
+            android:textSize="24sp"  
+            android:gravity="right"
+		    android:freezesText="true"
+            android:paddingRight="@dimen/rc_channels_right_padding" />  
+        <ProgressBar
+            android:id="@+id/rcProgressBar2"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:progress="0" />
+    </TableRow>  
+    <TableRow  
+        android:layout_height="wrap_content"  
+        android:id="@+id/rcChannelsTableRow3"  
+        android:layout_width="match_parent">  
+        <TextView  
+            android:text="@string/channel_3_label"  
+            android:id="@+id/textViewChannel3"  
+            android:textStyle="bold"
+            android:textSize="24sp" />  
+		<ImageView
+		    android:id="@+id/rcImageView3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:contentDescription="@string/led_description"
+	        android:src="@drawable/ic_led_red_on"
+	        android:adjustViewBounds="true"
+	        android:maxWidth="24dp"
+	        android:maxHeight="24dp" />                
+        <TextView  
+            android:id="@+id/rcTextViewValue3"  
+            android:text="@string/default_time"
+            android:textSize="24sp"  
+            android:gravity="right"
+		    android:freezesText="true"
+            android:paddingRight="@dimen/rc_channels_right_padding" />  
+        <ProgressBar
+            android:id="@+id/rcProgressBar3"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:progress="0" />
+    </TableRow>  
+    <TableRow  
+        android:layout_height="wrap_content"  
+        android:id="@+id/rcChannelsTableRow4"  
+        android:layout_width="match_parent">  
+        <TextView  
+            android:text="@string/channel_4_label"  
+            android:id="@+id/textViewChannel4"  
+            android:textStyle="bold"
+            android:textSize="24sp" />  
+		<ImageView
+		    android:id="@+id/rcImageView4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:contentDescription="@string/led_description"
+	        android:src="@drawable/ic_led_red_on"
+	        android:adjustViewBounds="true"
+	        android:maxWidth="24dp"
+	        android:maxHeight="24dp" />                
+        <TextView  
+            android:id="@+id/rcTextViewValue4"  
+            android:text="@string/default_time"
+            android:textSize="24sp"  
+            android:gravity="right"
+		    android:freezesText="true"
+            android:paddingRight="@dimen/rc_channels_right_padding" />  
+        <ProgressBar
+            android:id="@+id/rcProgressBar4"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:progress="0" />
+    </TableRow>  
+    <TableRow  
+        android:layout_height="wrap_content"  
+        android:id="@+id/rcChannelsTableRow5"  
+        android:layout_width="match_parent">  
+        <TextView  
+            android:text="@string/channel_5_label"  
+            android:id="@+id/textViewChannel5"  
+            android:textStyle="bold"
+            android:textSize="24sp" />
+		<ImageView
+		    android:id="@+id/rcImageView5"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:contentDescription="@string/led_description"
+	        android:src="@drawable/ic_led_red_on"
+	        android:adjustViewBounds="true"
+	        android:maxWidth="24dp"
+	        android:maxHeight="24dp" />                
+        <TextView  
+            android:id="@+id/rcTextViewValue5"  
+            android:text="@string/default_time"
+            android:textSize="24sp"  
+            android:gravity="right"
+		    android:freezesText="true"
+            android:paddingRight="@dimen/rc_channels_right_padding" />
+        <ProgressBar
+            android:id="@+id/rcProgressBar5"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:progress="0" />
+    </TableRow>  
+    <TableRow  
+        android:layout_height="wrap_content"  
+        android:id="@+id/rcChannelsTableRow6"  
+        android:layout_width="match_parent">  
+        <TextView  
+            android:text="@string/channel_6_label"  
+            android:id="@+id/textViewChannel6"  
+            android:textStyle="bold"
+            android:textSize="24sp" />  
+		<ImageView
+		    android:id="@+id/rcImageView6"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:contentDescription="@string/led_description"
+	        android:src="@drawable/ic_led_red_on"
+	        android:adjustViewBounds="true"
+	        android:maxWidth="24dp"
+	        android:maxHeight="24dp" />                
+        <TextView  
+            android:id="@+id/rcTextViewValue6"  
+            android:text="@string/default_time"
+            android:textSize="24sp"  
+            android:gravity="right"
+		    android:freezesText="true"
+            android:paddingRight="@dimen/rc_channels_right_padding" />  
+        <ProgressBar
+            android:id="@+id/rcProgressBar6"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:progress="0" />
+        </TableRow>  
+</TableLayout>  

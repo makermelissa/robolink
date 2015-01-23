@@ -1,0 +1,94 @@
+<TableLayout  
+    xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:id="@+id/switchesChannelsLayout"  
+    android:layout_width="wrap_content"  
+    android:layout_height="wrap_content"  
+    android:shrinkColumns="*"  
+    android:stretchColumns="*">  
+    <TableRow  
+        android:id="@+id/switchTableRow0"  
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+        <TextView  
+            android:id="@+id/textViewSwitchesTitle"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:textSize="28sp"
+            android:text="@string/switches_label"  
+            android:gravity="left"  
+            android:layout_span="2" />  
+    </TableRow>  
+    <TableRow  
+        android:layout_height="wrap_content"  
+        android:id="@+id/switchesTableRow1"  
+        android:layout_width="match_parent">  
+        <TextView  
+            android:text="@string/channel_1_label"  
+            android:id="@+id/textViewChannel1"  
+            android:textStyle="bold"
+            android:textSize="24sp" />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:clickable="false"
+            android:checked="false" />
+                
+    </TableRow>  
+    <TableRow  
+        android:layout_height="wrap_content"  
+        android:id="@+id/switchesTableRow2"  
+        android:layout_width="match_parent">  
+        <TextView  
+            android:text="@string/channel_2_label"  
+            android:id="@+id/textViewChannel2"  
+            android:textStyle="bold"
+            android:textSize="24sp" />
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:clickable="false"
+            android:checked="false" />
+    </TableRow>  
+    <TableRow  
+        android:layout_height="wrap_content"  
+        android:id="@+id/switchesTableRow3"  
+        android:layout_width="match_parent">  
+        <TextView  
+            android:text="@string/channel_3_label"  
+            android:id="@+id/textViewChannel3"  
+            android:textStyle="bold"
+            android:textSize="24sp" />
+        <Switch
+            android:id="@+id/switch3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:clickable="false"
+            android:checked="false" />
+    </TableRow>  
+    <TableRow  
+        android:layout_height="wrap_content"  
+        android:id="@+id/switchesTableRow4"  
+        android:layout_width="match_parent">  
+        <TextView  
+            android:text="@string/channel_4_label"  
+            android:id="@+id/textViewChannel4"  
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textIsSelectable="true" />
+        <Switch
+            android:id="@+id/switch4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:clickable="false"
+            android:checked="false" />
+    </TableRow>  
+</TableLayout>  

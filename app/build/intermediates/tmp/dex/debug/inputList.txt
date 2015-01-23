@@ -1,0 +1,5 @@
+/Users/melissa/AndroidstudioProjects/RoboLink/app/build/intermediates/classes/debug
+/Users/melissa/AndroidstudioProjects/RoboLink/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-19b9993785cca1974a0bcbb3be4179bc02817766.jar
+/Users/melissa/AndroidstudioProjects/RoboLink/app/build/intermediates/pre-dexed/debug/usb-serial-for-android-v010-5d549117001b0a001d5f3eb097711a7f194ac6fd.jar
+/Users/melissa/AndroidstudioProjects/RoboLink/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-0b692f4498470a0bd61f39e972586d9ab14dc7e1.jar
+/Users/melissa/AndroidstudioProjects/RoboLink/app/build/intermediates/pre-dexed/debug/classes-9900615867f43a9db1997d13d5c03384549f3afd.jar

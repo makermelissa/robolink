@@ -1,0 +1,44 @@
+<TableLayout  
+    xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:id="@+id/pingLayout"  
+    android:layout_width="match_parent"  
+    android:layout_height="wrap_content"  
+    android:shrinkColumns="*"  
+    android:stretchColumns="*">  
+    <TableRow  
+        android:id="@+id/pingTableRow0"  
+        android:layout_height="wrap_content"  
+        android:layout_width="wrap_content"  
+        android:gravity="center_horizontal">  
+        <TextView  
+            android:id="@+id/textViewRCTitle"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:textStyle="bold"  
+            android:textSize="28sp"  
+            android:text="@string/ping_label"  
+            android:gravity="left"  
+            android:layout_span="2" />  
+    </TableRow>  
+    <TableRow  
+        android:layout_height="wrap_content"  
+        android:id="@+id/pingTableRow1"  
+        android:layout_width="match_parent">  
+		<ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:contentDescription="@string/ping_label"
+	        android:src="@drawable/ping"
+	        android:adjustViewBounds="true"
+	        android:maxWidth="120dp"
+	        android:maxHeight="120dp" 
+	        android:gravity="left"/>                
+        <TextView  
+            android:text="@string/ping_value"  
+            android:id="@+id/textViewPingDistance"  
+            android:textStyle="bold"
+            android:textSize="24sp" 
+	        android:gravity="right" />
+		</TableRow>  
+</TableLayout>  
+<!-- From: file:/Users/melissa/AndroidstudioProjects/RoboLink/app/src/main/res/layout/ping.xml -->
